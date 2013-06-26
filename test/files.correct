@@ -1,13 +1,13 @@
-/home/seaman/Projects/jack-hammer/README.md
+/home/seaman/Projects/angular-hammer/README.md
 
-/home/seaman/Projects/jack-hammer:
+/home/seaman/Projects/angular-hammer:
 app
 bin
 doc
 README.md
 test
 
-/home/seaman/Projects/jack-hammer/app:
+/home/seaman/Projects/angular-hammer/app:
 app.js
 files.js
 node_modules
@@ -15,7 +15,7 @@ test-app.js
 thot.js
 views
 
-/home/seaman/Projects/jack-hammer/bin:
+/home/seaman/Projects/angular-hammer/bin:
 commit
 create
 e
@@ -45,14 +45,14 @@ trun
 tshow
 tst
 
-/home/seaman/Projects/jack-hammer/doc:
+/home/seaman/Projects/angular-hammer/doc:
 AutomatedTests
 Index
 ProjectContext
 ProjectSetup
 ToDo
 
-/home/seaman/Projects/jack-hammer/test:
+/home/seaman/Projects/angular-hammer/test:
 app.log
 data
 docs.correct
