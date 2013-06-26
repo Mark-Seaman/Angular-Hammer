@@ -1,0 +1,39 @@
+#!/bin/bash
+# Start working on the simple project
+
+# Vars
+export p=~/Projects/angular-hammer
+export ptitle='Angular Hammer'
+export ph=$joy
+export pa=$p/app
+export pb=$p/bin
+export pd=$p/doc
+export pt=$p/test
+
+# Aliases
+alias proot="cd $p"
+alias papp="cd $pa"
+alias pbin="cd $pb"
+alias pdoc="cd $pd"
+alias ptest="cd $pt"
+
+# Path
+export PATH=\
+$pb:\
+$pt:\
+/usr/bin:\
+/sbin:\
+/bin:\
+~/bin:\
+.
+
+# Show the banner
+#reset
+figlet "$ptitle"
+
+# Directory
+cd $p
+
+# Status
+git status
+
