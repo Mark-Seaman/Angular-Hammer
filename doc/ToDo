@@ -1,8 +1,10 @@
-* Jack Hammer - To Do  *                 -*-muse-*-
+* Angular Hammer - To Do  *                 -*-muse-*-
 _____________________________________________________________________________
 
 **Communicate** - share
 
+create ProjectSummary
+create ToDo and [[Done]]
 create 10 page User Guide
 
 _____________________________________________________________________________
@@ -11,25 +13,32 @@ _____________________________________________________________________________
 
 pass all tests
 test and deploy
+automatically edit missing pages
 
 
 **Fix** - defects
+
+fix Twitter bootstrap
 
 
 **Extend** - features 
 
 create basic web page
 create clonable project
+create setup process for Yeoman
 
 
 **Improve** - structure
 
+install yeoman on chute
 clean up doc dir
 create initial project structure
 use yo to create project files
 add angular to project
+add code from yeoman
 
 _____________________________________________________________________________
 
 **New**
+
 
