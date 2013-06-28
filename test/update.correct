@@ -9,7 +9,31 @@ app/thot.js
 ____________________
 app/views/bootstrap.min.js
 ____________________
+app/views/cmd.jade
+____________________
+app/views/detail.jade
+____________________
+app/views/edit.jade
+____________________
+app/views/find.jade
+____________________
 app/views/jquery-latest.js
+____________________
+app/views/layout.jade
+6c6
+<       title Angular Hammer Project
+---
+>       title Jack Hammer Project Notes
+18,20c18
+<     h1
+<       span(style='color:green')  Angular 
+<       span(style='color:blue')  Hammer
+---
+>     h1(style='color:green')  Jack Hammer
+____________________
+app/views/list.jade
+____________________
+app/views/show.jade
 ____________________
 bin/commit
 ____________________
