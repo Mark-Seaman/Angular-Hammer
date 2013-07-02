@@ -7,9 +7,10 @@ angular.module('angularHammerApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       }) 
-      .when('/page', {
-        templateUrl: 'views/main.html',
-        controller: 'PageCtrl'
+      .when('/add', {
+          templateUrl: 'views/main.html',
+          controller: 'MainCtrl',
+          action: 'add'
       })
       .otherwise({
         redirectTo: '/'

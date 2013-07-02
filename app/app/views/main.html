@@ -1,19 +1,35 @@
-<div class="hero-unit">
-  <h1>Angular Hammer: {{title}}</h1>
-  <p>Your next web application in minutes!</p>
-  <ul>
-      <li ng-repeat="thing in links">
-        <a href='{{thing.href}}'>{{thing.text}}</a>
-      </li>
-  </ul>
-</div>
+<div>
+  <h1>Angular Workshop</h1>
+    <p>Elegant solutions to everyday problems.</p>
+    <p>Make your next web application in minutes!</p>
 
-<h1>Angular Workshop</h1>
-<p>Elegant solutions to everyday problems.</p>
-<ul>
-  <li ng-repeat="t in topics">{{t}}</li>
-  <li>
-    <input type=text ng-model='name'>
-    <button ng-click='add()'>Add</button>
-  </li>
-</ul>
+    <div style='background-color:lightyellow'>
+      <p> Topic:<input type='text' ng-model='page' ng-change='navigate()' />
+      </p>
+      <h2>{{title}}</h2>
+      <p>{{text}}</p>
+    </div>
+
+    <div>
+      <ul>
+        <li ng-repeat="t in topics">
+          <a href='/#/{{t.title}}'>{{t.text}}</a>
+        </li>
+      </ul>
+
+      <!--
+          <p>See also</p>
+      <p ng-repeat="l in links">
+        <a ng-click='select_topic(l.href)'>{{l.text}}</a>
+      </p>
+      -->
+
+    </div>
+
+    <div style='background-color:lightgreen'>
+      <p><input type='text' ng-model='title'  />
+      <p><textarea height='300px' ng-model='text' ></textarea>
+      <p><button class='btn' ng-click='add()'>Add</button>
+    </div>
+
+</div>
