@@ -2,7 +2,6 @@
 
 /home/seaman/Projects/angular-hammer:
 app
-app2
 bin
 doc
 README.md
@@ -10,7 +9,9 @@ test
 
 /home/seaman/Projects/angular-hammer/app:
 app
+app.js
 bower.json
+files.js
 Gruntfile.js
 karma.conf.js
 karma-e2e.conf.js
@@ -18,13 +19,6 @@ libpeerconnection.log
 node_modules
 package.json
 test
-
-/home/seaman/Projects/angular-hammer/app2:
-app.js
-files.js
-node_modules
-test-app.js
-thot.js
 views
 
 /home/seaman/Projects/angular-hammer/bin:

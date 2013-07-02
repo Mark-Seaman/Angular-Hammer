@@ -4,8 +4,10 @@ ____________________
 app/files.js
 ____________________
 app/test-app.js
+diff: /home/seaman/Projects/angular-hammer/app/test-app.js: No such file or directory
 ____________________
 app/thot.js
+diff: /home/seaman/Projects/angular-hammer/app/thot.js: No such file or directory
 ____________________
 app/views/bootstrap.min.js
 ____________________
@@ -73,6 +75,8 @@ ____________________
 bin/rbg
 ____________________
 bin/run
+12d11
+< rbg grunt server
 ____________________
 bin/show
 ____________________
