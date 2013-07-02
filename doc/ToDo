@@ -23,6 +23,8 @@ fix Twitter bootstrap
 
 **Extend** - features 
 
+build yeoman app
+combine yeoman app with existing project structure
 create basic web page
 create clonable project
 create setup process for Yeoman

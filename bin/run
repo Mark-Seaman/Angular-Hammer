@@ -9,6 +9,7 @@ killall node
 
 # Start the server
 rbg node app.js
+rbg grunt server
 sleep 1
 
 # Show the web page
