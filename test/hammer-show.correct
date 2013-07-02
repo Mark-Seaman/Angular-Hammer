@@ -11,6 +11,8 @@ hammer-show
 <ul><li>instance code sharing</li></ul>
 <ul><li>extensible custom commands</li></ul>
 <br/> 
+<br/> <a href='http://localhost:9000/#/'>link to client page</a>
+<br/> 
 <br/>  <a href="ToDo">ToDo</a> 
 
 hammer-show Index
@@ -24,6 +26,8 @@ hammer-show Index
 <ul><li>automatic test framework</li></ul>
 <ul><li>instance code sharing</li></ul>
 <ul><li>extensible custom commands</li></ul>
+<br/> 
+<br/> <a href='http://localhost:9000/#/'>link to client page</a>
 <br/> 
 <br/>  <a href="ToDo">ToDo</a> 
 
