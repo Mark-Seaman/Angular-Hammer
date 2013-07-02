@@ -2,12 +2,24 @@
 
 /home/seaman/Projects/angular-hammer:
 app
+app2
 bin
 doc
 README.md
 test
 
 /home/seaman/Projects/angular-hammer/app:
+app
+bower.json
+Gruntfile.js
+karma.conf.js
+karma-e2e.conf.js
+libpeerconnection.log
+node_modules
+package.json
+test
+
+/home/seaman/Projects/angular-hammer/app2:
 app.js
 files.js
 node_modules
