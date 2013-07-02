@@ -1,9 +1,19 @@
 <div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
+  <h1>Angular Hammer: {{title}}</h1>
+  <p>Your next web application in minutes!</p>
   <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
+      <li ng-repeat="thing in links">
+        <a href='{{thing.href}}'>{{thing.text}}</a>
+      </li>
   </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
 </div>
+
+<h1>Angular Workshop</h1>
+<p>Elegant solutions to everyday problems.</p>
+<ul>
+  <li ng-repeat="t in topics">{{t}}</li>
+  <li>
+    <input type=text ng-model='name'>
+    <button ng-click='add()'>Add</button>
+  </li>
+</ul>
