@@ -11,22 +11,19 @@
     </div>
 
     <div>
+      <p>See also</p>
       <ul>
         <li ng-repeat="t in topics">
-          <a href='/#/{{t.title}}'>{{t.text}}</a>
+          <a ng-click='select_topic(t.title)'>{{t.title}}</a>
         </li>
       </ul>
 
       <!--
-          <p>See also</p>
-      <p ng-repeat="l in links">
-        <a ng-click='select_topic(l.href)'>{{l.text}}</a>
-      </p>
       -->
 
     </div>
-
-    <div style='background-color:lightgreen'>
+    <button class='btn-link' ng-click='editing=!editing'>Edit</button>
+    <div ng-show='editing' style='background-color:lightgreen'>
       <p><input type='text' ng-model='title'  />
       <p><textarea height='300px' ng-model='text' ></textarea>
       <p><button class='btn' ng-click='add()'>Add</button>
